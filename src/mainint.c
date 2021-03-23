@@ -3727,10 +3727,14 @@ redo:
 					int min, max;
 
 					if (!twoPlayerMode)
-						min = 1, max = 2;
-					else
+                    {
+                        min = 1;
+                        max = 2;
+                    }
+                    else
+                    {
 						min = max = playerNum_;
-
+                    }
 					for (temp = min - 1; temp < max; temp++)
 					{
 						const uint item = this_player->items.weapon[temp].id;

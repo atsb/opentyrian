@@ -153,7 +153,7 @@ void opentyrian_menu( void )
 		}
 
 		if (sel == MENU_FULLSCREEN || sel == MENU_SCALER || sel == MENU_SCALING_MODE) {
-			draw_font_hv_shadow(VGAScreen, VGAScreen->w / 2, 190, "Change option with Left/Right keys then press Enter.",
+			draw_font_hv_shadow(VGAScreen, VGAScreen->w / 2, 190, "Change option with Left/Right keys, then press the Enter key.",
 					small_font, centered, 15, 2, true, 1);
 		}
 

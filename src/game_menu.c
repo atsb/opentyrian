@@ -1836,7 +1836,7 @@ bool load_cube( int cube_slot, int cube_index )
 				char *word = &buf[word_start];
 				word_start = i + 1;
 
-				uint word_chars = strlen(word),
+				unsigned long word_chars = strlen(word),
 				     word_width = JE_textWidth(word, TINY_FONT);
 
 				// word won't fit; no can do
