@@ -13,24 +13,8 @@ tyrian.sav
 /src/*.gch
 /opentyrian
 
-# Windows build output
-/opentyrian.exe
-/SDL2.dll
-/SDL2_net.dll
-
-# Windows runtime output
-/stderr.txt
-/stdout.txt
-
-# MSVC build output and project
-/opentyrian-*.exe
-/opentyrian-*.ilk
-/opentyrian-*.pdb
-/opentyrian-*.iobj
-/opentyrian-*.ipdb
-/visualc/.vs/
-/visualc/*.props
-/visualc/*.user
-
 # Doxygen output
 /doc/doxygen/
+
+# macOS
+*.DS_Store
