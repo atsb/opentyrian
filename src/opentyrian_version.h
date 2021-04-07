@@ -2,7 +2,7 @@
 #define OPENTYRIAN_VERSION_H
 
 #ifndef OPENTYRIAN_VERSION
-#define OPENTYRIAN_VERSION "v2.2.macOS"
+#define OPENTYRIAN_VERSION "v2.2"
 #endif
 
 #endif // OPENTYRIAN_VERSION_H
